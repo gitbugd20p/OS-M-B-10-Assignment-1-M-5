@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", "Abel", "DM Sans", "sans-serif";
+}
+
+hr {
+    border: 2px solid #ebeaed;
+}
+
+.button-bg {
+    background-color: #ff6600;
+    color: #ffffff;
+}
+
+/* Header Section */
+header {
+    background-color: #ffffff;
+    .nav-link {
+        color: #000000;
+    }
+}
+
+/* Banner Section */
+
+.banner-header {
+    font-size: 63px;
+    font-weight: 900;
+    line-height: 81px;
+    color: #0b1b35;
+}
+
+.banner-para {
+    font-size: 22px;
+    line-height: 28.5px;
+}
+
+.banner-img {
+    width: 655px;
+    height: 618px;
+}
+
+/* Service Section */
+.service-header {
+    font-size: 14px;
+    line-height: 28.5px;
+    letter-spacing: 4.5px;
+    color: #8a898e;
+    font-weight: 400;
+}
+
+.service-sHeader {
+    font-size: 52px;
+    line-height: 28.5px;
+    color: #0b1b35;
+    font-weight: 300;
+    font-family: "Abel";
+}
+
+.card-cont {
+    border-radius: 28px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 25px 50px -12px;
+}
+
+.card-h {
+    font-family: "Abel";
+    font-size: 36px;
+    line-height: 28.5px;
+    color: #000000;
+}
+
+.card-p {
+    font-family: "Abel";
+    font-size: 18px;
+    line-height: 28.5px;
+    color: #000000;
+}
+
+/* Explore Section */
+.ex-card-body h5 {
+    font-size: 22px;
+    line-height: 32px;
+    color: #1e0e62;
+    font-family: "DM Sans";
+}
+
+.ex-card-body p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #151439;
+    font-family: "DM Sans";
+    opacity: 40%;
+}
+
+.ex-card-body button {
+    border: none;
+    background-color: transparent;
+    color: #1e0e62;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+        rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    padding: 10px 30px;
+}
+
+/* Testimonial Section */
+.tex-cont {
+    max-width: 970px;
+    max-height: 682px;
+}
+.tes-card h5 {
+    font-size: 18px;
+    font-family: "DM Sans";
+    line-height: 28px;
+    color: #0b1b35;
+}
+.tes-card p {
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    color: #0b1b35;
+}
+
+/* Team Section */
+.team-sec {
+    margin-top: 100px;
+}
+
+.team-sec h2 {
+    margin-bottom: 2rem;
+}
+
+.team-card-cont {
+    border-radius: 6px;
+}
+
+.team-card-h {
+    font-family: "DM Sans";
+    font-size: 32px;
+    line-height: 32px;
+    color: #1e0e62;
+}
+
+.team-card-p {
+    font-family: "DM Sans";
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    color: #151439;
+    opacity: 40%;
+}
+
+.team-card-f {
+    background-color: #ffffff;
+}
+
+.team-f-box {
+    min-height: 50px;
+}
+
+/* Newsletter Section */
+.news-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.news-p {
+    font-size: 18px;
+    line-height: 28.5px;
+    color: #000000;
+}
+
+.news-inp {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+        rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+input::placeholder {
+    padding: 20px;
+    color: #000000 !important;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28.5px;
+    opacity: 1;
+}
+
+.button-bg-sbt {
+    background-color: #ff6600;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 28.5px;
+    padding: 10px 25px;
+}
+
+/* Footer Section */
+.footer-sec {
+    color: #1e0e62;
+}
+
+.last-p {
+    opacity: 40%;
+    color: #151439;
+}
